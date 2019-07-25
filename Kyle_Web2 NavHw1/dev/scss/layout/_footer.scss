@@ -1,0 +1,35 @@
+/* =============
+    Footer
+============= */
+
+
+footer{
+  background-color: $neon;
+  h4{
+    text-align: center;
+    padding-top: 15px;
+    span{
+      color: $white;
+    }
+  }
+  ul{
+
+      a:link, a:visited{
+        color: $black;
+        background: none;
+    }
+    a:hover, a:active{
+    color: $white;
+    background-color: none;
+  }
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 120px;
+
+    @include md{
+      padding: 15px 180px;
+      font-size: rem-calc(20);
+    }
+
+  }
+}

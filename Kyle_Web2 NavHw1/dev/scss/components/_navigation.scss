@@ -1,0 +1,33 @@
+/* =============
+    Navigation
+============= */
+header{
+
+ul{
+text-align: right;
+li{
+  border-bottom: 2px solid $neon;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  @include lg{
+    border-bottom: none;
+  }
+}
+
+
+  @include lg{
+    display: flex;
+    li{
+      padding-right: 11px;
+    }
+  }
+}
+
+li:last-child{
+  padding-right: 0;
+  color: $neon;
+  border-bottom: 2px solid $neon;
+  padding-bottom: 10px;
+}
+
+}

@@ -1,0 +1,78 @@
+#studio{
+
+
+
+
+article{
+  text-align: center;
+  h3{
+    font-weight: 300;
+  }
+
+  h1{
+    color: $neon;
+  }
+}
+
+
+#p1{
+  text-align: center;
+  h4{
+    color: $neon;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  img{
+    margin-top: 30px;
+  }
+}
+
+#p2{
+  text-align: center;
+  h4{
+    color: $neon;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  img{
+    margin-top: 30px;
+  }
+}
+
+#paragraphs{
+  @include lg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+
+    #p1{
+      text-align: left;
+      margin-right: 60px;
+      margin-left: 60px;
+
+      article{
+        display: flex;
+        align-items: baseline;
+      }
+
+    }
+    #p2{
+      text-align: left;
+      margin-right: 60px;
+      margin-left: 60px;
+
+      article{
+        display: flex;
+        align-items: baseline;
+      }
+
+    }
+  }
+}
+
+
+}

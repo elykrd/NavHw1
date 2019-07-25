@@ -1,0 +1,59 @@
+// _hero
+
+
+#hero{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+  background-image: url('../img/hero/slide_5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 30px;
+
+@include md{
+  height: 500px;
+}
+
+@include lg{
+  height: 700px;
+}
+@include xl{
+  height: 900px;
+}
+
+
+
+
+article{
+  text-align: center;
+  h3{
+    margin-top: 90%;
+    color: $neon;
+    font-weight: 400;
+    font-size: rem-calc(16);
+
+    @include md{
+      color: $neon;
+      font-weight: 400;
+      font-size: rem-calc(30);
+    }
+  }
+
+  h1{
+    color: $white;
+    font-weight: 600;
+    font-size: rem-calc(36);
+
+    @include md{
+      font-size: rem-calc(56);
+    }
+  }
+}
+
+
+
+
+}
